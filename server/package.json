@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.jsx",
+    "watch": "npx nodemon server.jsx"
+  },
+  "author": "mrbll48",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^3.12.1",
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "graphql": "^16.8.1",
+    "mongoose": "^7.5.3"
+  }
+}
