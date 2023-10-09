@@ -4,8 +4,8 @@
   "version": "0.0.1",
   "main": "server.js",
   "scripts": {
-    "start": "node server.jsx",
-    "watch": "npx nodemon server.jsx"
+    "start": "node server.js",
+    "watch": "npx nodemon server.js"
   },
   "author": "mrbll48",
   "license": "MIT",
