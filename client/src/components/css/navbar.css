@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #344c11;
+}
+
+.navs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.navlinks {
+  text-decoration: underline;
+  color: #aec09a;
+  font-size: 25px;
+  margin: 0 15px 0 15px;
+  padding: 5px 0 5px 0;
+}

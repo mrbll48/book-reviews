@@ -1,6 +1,9 @@
 import express from "express";
 import { ApolloServer } from "apollo-server-express";
 import path from "path";
+import { fileURLToPath } from "url";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 import db from "./config/connection.js";
 import { resolvers, typeDefs } from "./schemas/index.js";
